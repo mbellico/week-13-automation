@@ -1,0 +1,27 @@
+{
+  "name": "week-13-automation",
+  "version": "0.0.1",
+  "description": "\"Become a QA Automation: week-13 - Automation with WebdriverIO\"",
+  "main": "automation.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js --spec automation.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:/Users/Usuario/Desktop/Radium Rocket/week-13/.git/"
+  },
+  "author": "Melisa D. Bellico",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.5.2",
+    "@wdio/jasmine-framework": "^7.5.2",
+    "@wdio/local-runner": "^7.5.2",
+    "@wdio/spec-reporter": "^7.5.2",
+    "chromedriver": "^90.0.0",
+    "jasmine": "^3.7.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  },
+  "dependencies": {
+    "@wdio/sync": "^7.5.2"
+  }
+}
