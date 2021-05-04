@@ -11,7 +11,7 @@ describe('Google Page', () => {
         browser.keys('Enter');
     });
     it('should enter the "Wikipedia" site', () => {
-        const elem = $('#rso div:nth-child(1)  div:nth-child(1) div div.tF2Cxc div.yuRUbf a');
+        const elem = $('#rso > div:nth-child(1) > div > div.tF2Cxc > div.yuRUbf > a > h3');
         browser.pause(2000);
         elem.click();
     })
