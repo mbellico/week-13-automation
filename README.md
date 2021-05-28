@@ -4,7 +4,7 @@
 Using WebDriver IO to design automated UI tests for [Google](https://www.google.com/) and [Wikipedia](https://es.wikipedia.org/) web sites.-
 
 ## Author: 
-Melisa D. Bellico 
+[Melisa D. Bellico](https://www.linkedin.com/in/melisabellico/) 
 
 ## Technology stack
 * [Node.js](https://nodejs.org/es/docs/).-
